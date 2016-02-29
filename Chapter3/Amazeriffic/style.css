@@ -1,52 +1,119 @@
-body {
-  background: #f9e933;
+body{
+	background: #f9e933;
 }
 
 header, main, footer {
-  min-width: 855px;
+	min-width: 855px;
+    font-family: "Droid-Sans", sans-serif;
+    font-size: 100%;
 }
 
 header .container, main .container, footer .container {
-  max-width: 855px;
-  margin: auto;
+	max-width: 855px;
+	margin: auto;
 }
 
 header {
-  background: white;
-  overflow: auto;
+	background: white;
+	overflow: auto;
 }
 
 header h1 {
-  float: left;
-  width: 570px;
+	float: left;
+	width: 570px;
 }
 
 header nav {
-  float: right;
-  width: 285px;
+	float: right;
+	width: 285px;
 }
 
+h1, h2, h3, h4 {
+    font-family: "Ubuntu", sans-serif;
+}
+
+h1 {
+    font-size: 2.4em;
+    padding-top: 20px;
+}
+
+h2 {
+    font-size: 1.8em;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.3em;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+
+h5 {
+    font-size: 1.2em;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+
 main {
-  background: white;
-  overflow: auto;
+ 	background: white;
+ 	overflow: auto;
+}
+
+main ul {
+	padding-bottom: 50px;
+}
+
+main li {
+	padding-bottom: 10px;
+}
+
+main form {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width:300px;
+	margin:auto;
+}
+
+main label {
+	padding-top: 20px;
+}
+
+main input {
+	display: block;
+	margin-bottom: 30px;
 }
 
 main .left {
-  float: left;
-  width: 570px;
+ 	float: left;
+ 	width: 570px;
 }
 
 main .right {
-  float: right;
-  width: 285px;
+ 	float: right;
+ 	width: 285px;
+}
+
+footer {
+	overflow: auto
 }
 
 footer .left {
-  float: left;
-  width: 570px;
+ 	float: left;
+ 	width: 570px;
 }
 
 footer .sitemap {
-  float: right;
-  width: 285px;
+ 	float: right;
+ 	width: 285px;
+}
+
+a {
+	color: red;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 }
